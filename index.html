@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>사서의 책장</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/my_reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <script src="./api_copy.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hd">
+        <h1>사서의 책장</h1>
+
+        <label class="inpurArea"
+          ><input type="text" placeholder="검색어를 입력하시오" /><i
+            class="fa-solid fa-magnifying-glass searchBtn"
+          ></i
+        ></label>
+      </header>
+      <ul class="listCon">
+        <li>
+          <p class="title">title</p>
+          <p class="rights">rights</p>
+          <p class="creator">creator</p>
+          <p class="url">url</p>
+          <p class="description">description</p>
+
+          <p class="regDate">regDate</p>
+        </li>
+      </ul>
+      <div class="pagination">
+        <button id="prevPage">Prev</button>
+        <span id="pageIndicator">Page 1</span>
+        <button id="nextPage">Next</button>
+      </div>
+    </div>
+  </body>
+</html>
