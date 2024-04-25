@@ -8,7 +8,7 @@
 }
 .wrap > * {
   max-width: 1200px;
-  width: calc(100% - var(--size));
+  width: calc(120% - var(--size));
   margin: auto;
 }
 
