@@ -35,6 +35,13 @@ const calculateTotalPages = (totalItems, numOfRows) => {
 };
 
 //3. li 를 생성하는 함수
+const redirectToURL = (event) => {
+  const item = event.currentTarget.dataset.item;
+  if (item.url) {
+    window.open(item.url, "_blank");
+  }
+};
+
 const createElmLi = (item) => {
   let description = item.description
     ? item.description.length > 100
