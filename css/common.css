@@ -13,6 +13,7 @@
 }
 
 .hd {
+  /* border: 1px solid black; */
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -103,5 +104,5 @@
 }
 
 .rights {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
